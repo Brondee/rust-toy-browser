@@ -1,3 +1,3 @@
 # rust-toy-browser
 
-## making my own browser, simplified version
+making my own browser, simplified version
