@@ -28,8 +28,8 @@ pub fn text(data: String) -> Node {
 }
 
 pub fn elem(tag_name: String, attrs: AttrMap, children: Vec<Node>) -> Node {
-  Node {
-    children,
-    node_type: NodeType::Element(ElementData {tag_name, attrs})
-  }
+    Node {
+        children,
+        node_type: NodeType::Element(ElementData { tag_name, attrs }),
+    }
 }

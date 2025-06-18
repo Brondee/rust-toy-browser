@@ -1,5 +1,6 @@
 use std::collections::HashMap;
 
+pub mod css;
 pub mod dom;
 pub mod html;
 
@@ -15,4 +16,3 @@ fn main() {
 
     // println!("{:#?}", first_elem);
 }
-
